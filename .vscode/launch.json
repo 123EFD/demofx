@@ -21,9 +21,9 @@
             "type": "java",
             "name": "App",
             "request": "launch",
-            "vmArgs": "--module-pathC:/Users/Chin Shi Er/OneDrive/Documents/Coding/demofx/javafx-sdk-21.0.9/lib --add-modules javafx.controls",
+            "vmArgs": "--module-path C:/Users/Chin Shi Er/OneDrive/Documents/Coding/demofx/javafx-sdk-21.0.9/lib --add-modules javafx.controls",
             "mainClass": "App",
-            "projectName": "demofx"
+            "projectName": "demofx_544c31f7"
         }
     ]
 }
