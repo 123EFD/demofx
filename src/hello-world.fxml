@@ -1,0 +1,29 @@
+<!--
+This is the FXML file. It defines the visual structure of the UI.
+It must be placed in the same directory as FXMLExample.java for the
+FXMLExample.java file to find it using getClass().getResource().
+-->
+
+<!--Method of creating obj.:
+1. via FXML element, by importing the class, you cna use its name as FXML element name
+2. static factory method: call static valueOf(), inserting value attribute in FXML
+FXMLLoader usually hav eno-arg contructor (e.g. new Label())
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/21">
+    <padding>
+        <Insets top="20" right="20" bottom="20" left="20" />
+    </padding>
+    <children>
+        <myClass value="Hello, World from myClass by valueOf()!" />
+    </children>
+</VBox>
