@@ -16,10 +16,12 @@ FXMLLoader usually have no-arg constructor (e.g. new Label())
 
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
 
-<VBox spacing="20">
+<VBox spacing="20" xmlns:fx="http://javafx.com/fxml" fx:controller="HelloWorldController">
     <children>
-        <Label text="Line 1"/>
-        <Label text="Line 2"/>
+        <Label fx:id="label1" text="Line 1"/>
+        <Label fx:id="label2" text="Line 2"/>
+        <Button text="Click Me" onAction="#reactToClick"/>
     </children>       
 </VBox>
