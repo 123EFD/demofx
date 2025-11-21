@@ -7,9 +7,9 @@ FXMLExample.java file to find it using getClass().getResource().
 -->
 
 <!--Method of creating obj.:
-1. via FXML element, by importing the class, you cna use its name as FXML element name
+1. via FXML element, by importing the class, you can use its name as FXML element name
 2. static factory method: call static valueOf(), inserting value attribute in FXML
-FXMLLoader usually hav eno-arg contructor (e.g. new Label())
+FXMLLoader usually have no-arg constructor (e.g. new Label())
 -->
 
 
