@@ -14,8 +14,6 @@ public class HelloWorldController {
     public void reactToClick(ActionEvent event) {
         System.out.println("Button clicked!");
         // You can add your custom logic here
-        if (label1 != null) {
-            label1.setText("Button was clicked!");
-        }
+        label1.setText("Button was clicked!");
     }
 }
